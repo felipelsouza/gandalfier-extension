@@ -14,6 +14,9 @@
             ]
         }
     ],
+    "web_accessible_resources": [
+        "music.mp3"
+    ],
     "browser_action": {
         "default_title": "Gandalfier",
         "default_icon": "src/icon.png"
