@@ -21,12 +21,8 @@ Google Chrome extension that transform any image into Gandalf 🧙‍♂️
 
 ### Contributors
 
-<a href="https://github.com/felipelsouza" target="_blank" >
-    <img src="https://avatars2.githubusercontent.com/u/55006796?s=460&u=831e7ba9931bd2562a91c9f244774130614ccbe1&v=4" name="Felipe Souza" alt="Felipe Souza" style="height: 50px; border-radius: 25px; margin-right: 5px;"/>
-</a>
-<a href="https://github.com/matheusc3m" target="_blank" >
-    <img src="https://avatars0.githubusercontent.com/u/50497092?s=460&u=83ffaae386d1f2e5fce4054ca08dc3127590cccd&v=4" name="Matheus Cavalcante" alt="Matheus Cavalcante" style="height: 50px; border-radius: 25px; margin-right: 5px;"/>
-</a>
+- [Felipe Souza](https://github.com/felipelsouza)
+- [Matheus Cavalcante](https://github.com/matheusc3m)
 
 *Made by Felipe
 <br>And I don't know why I did it.*
