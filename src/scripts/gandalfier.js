@@ -1,3 +1,12 @@
+//Code to play saxofone song
+let url = chrome.runtime.getURL('music.mp3')
+console.log(url)
+
+let a = new Audio(url)
+a.play().runLoop
+// end code to play saxofone song
+
+
 const gandalfImgs = [
     'https://uploads.jovemnerd.com.br/wp-content/uploads/Gandalf-Fuck-Yeah.jpg',
     'https://i.pinimg.com/originals/58/b2/ac/58b2ac4d438ce0427712e69c4bfbdbc2.jpg',
@@ -21,6 +30,7 @@ const changedImgs = [];
 const runLoop = setInterval(() => {
     const html = document.querySelector("html");
 
+
     if (html) {
         replaceImages();
     }
@@ -30,14 +40,14 @@ function replaceImages() {
     const images = document.querySelectorAll("img");
 
     images.forEach((image) => {
-        if(!changedImgs.includes(image.src)) {
+        if (!changedImgs.includes(image.src)) {
             let width = image.width;
             let height = image.height;
-    
+
             image.src = gandalfImgs[Math.floor(Math.random() * gandalfImgs.length)];
             image.width = width;
             image.height = height;
-    
+
             changedImgs.push(image.src);
         }
     })
