@@ -1,12 +1,3 @@
-//Code to play saxofone song
-let url = chrome.runtime.getURL('music.mp3')
-console.log(url)
-
-let a = new Audio(url)
-a.play().runLoop
-// end code to play saxofone song
-
-
 const gandalfImgs = [
     'https://uploads.jovemnerd.com.br/wp-content/uploads/Gandalf-Fuck-Yeah.jpg',
     'https://i.pinimg.com/originals/58/b2/ac/58b2ac4d438ce0427712e69c4bfbdbc2.jpg',
@@ -14,7 +5,7 @@ const gandalfImgs = [
     'https://files.mormonsud.net/wp-content/uploads/2018/09/gandalf.jpg',
     'https://cms.qz.com/wp-content/uploads/2018/08/gandalf-lord-of-the-rings-e1534255368438.jpg?quality=75&strip=all&w=900&h=900&crop=1',
     'https://vandal-us.s3.amazonaws.com/spree/products/80195/original/open-uri20180820-270-110ja3g.jpg',
-    'https://lh3.googleusercontent.com/proxy/jJsaE_12BRQht4_5FUY9cey6oDzywPWwuo_adB2_g-LFnQXyGpA92Mmh8f9j2hzi9i4F5mBahMBitZm5el1Lr7CevBfrIbd6vq0yvZs27S-eRHVnD-4f4vQv7mE',
+    'https://lh3.googleusercontent.com/proxy/jJsa.muted = true;aE_12BRQht4_5FUY9cey6oDzywPWwuo_adB2_g-LFnQXyGpA92Mmh8f9j2hzi9i4F5mBahMBitZm5el1Lr7CevBfrIbd6vq0yvZs27S-eRHVnD-4f4vQv7mE',
     'https://quintacapa.com.br/wp-content/uploads/2019/09/gandalf-teoria-bombado.png',
     'https://ogimg.infoglobo.com.br/in/22205230-858-a4f/FT1500A/690/Ian-McKellen.jpg',
     'https://www.fatosdesconhecidos.com.br/wp-content/uploads/2018/05/s-l1600-500x500.jpg',
@@ -52,3 +43,13 @@ function replaceImages() {
         }
     })
 }
+
+function playMusic() {
+    const url = chrome.runtime.getURL('music.mp3');
+    let audio = new Audio(url);
+    audio.loop = true;
+    audio.autoplay = true;
+    console.log(audio);
+}
+
+playMusic();
