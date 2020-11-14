@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "Gandalfier",
+    "version": "0.0.1",
+    "description": "It's all about the Wizard",
+    "author": "Felipe Souza",
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "src/scripts/gandalfier.js"
+            ]
+        }
+    ],
+    "browser_action": {
+        "default_title": "Gandalfier",
+        "default_icon": "src/icon.png"
+    }
+}
