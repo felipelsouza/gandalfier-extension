@@ -4,6 +4,10 @@ Google Chrome extension that transform any image into Gandalf 🧙‍♂️
 
 ![gandalfs](https://user-images.githubusercontent.com/55006796/99152606-91948b00-2681-11eb-8b24-cbd3a05cb37c.png)
 
+### Install
+You can install the extension by the following link:
+[Gandalfier](https://chrome.google.com/webstore/detail/gandalfier/hdhfneijhlbenanoopppilnfmagcimbn?hl=pt-BR)
+
 ### How to use:
 
 - Download or Clone this repository

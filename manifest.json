@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Gandalfier",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "It's all about the Wizard",
     "author": "Felipe Souza",
     "content_scripts": [
