@@ -1,6 +1,6 @@
 ## Gandalfier
 
-Google Chrome extension that transform any image into Gandalf 🧙‍♂️
+Google Chrome extension that transforms any image into Gandalf 🧙‍♂️
 
 ![gandalfs](https://user-images.githubusercontent.com/55006796/99152606-91948b00-2681-11eb-8b24-cbd3a05cb37c.png)
 
